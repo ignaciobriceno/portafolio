@@ -23,46 +23,49 @@
 
   <body>
     
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
-              <a class="navbar-brand text-white " href="#">IB</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white fixed-top">
+              <a class="navbar-brand text-white font-weight-bold pl-5" href="#hero">IB</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse pr-5" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto ">
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Sobre mí</a>
+                    <a class="nav-link text-secondary" href="#about">SOBRE MÍ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Experiencia</a>
+                    <a class="nav-link text-secondary" href="#xp">EXPERIENCIA</a>
                   </li>
                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Trabajos</a>
+                    <a class="nav-link text-secondary" href="#works">TRABAJOS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contacto</a>
+                    <a class="nav-link text-secondary" href="#contact">CONTACTO</a>
                   </li>
                 </ul>
              </div>
         </nav>
         
         <!--Foto + Hola y la wea--> 
-        <section class="hero-section container-fluid bg text-dark">
-            <h2 class="text-center font-weight-bold">¡Hola, soy Ignacio Briceño!</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        <section id="hero" class="hero-section container-fluid bg text-dark">
+              
+            <div class="container typer">
+                <h3 class="text-left p-0 m-0">¡Hola, soy</h3>
+                <h1 class="font-weight-bold text-white text-left p-0 m-0">Ignacio Briceño</h1>
+                <h3 id="typer" class="font-weight-bold text-left p-0 m-0"></h3> 
+                
+            </div>
+                 
+                                    
+                
 
 
                 
         </section>
 
         <!--Descripcion-->
-        <section class="descripcion container">
+        <section id="about" class="descripcion container">
             <div class="card text-center">
               <div class="card-header">
                 <ul class="nav nav-tabs card-header-tabs">
@@ -90,13 +93,13 @@
         </section>
         
         <!--Experiencia-->
-        <section class="experiencia container-fluid bg-secondary">
+        <section id="xp" class="experiencia container-fluid bg-secondary">
             <h2>Experiencia</h2>
             <h5>Formación</h5>    
         </section>
 
         <!--Trabajos (poner proyectos qls)-->
-        <section class="trabajos container-fluid">
+        <section id="works" class="trabajos container-fluid">
             <h2 class="text-center">Portafolio de trabajos</h2>
             
             <div class="bg-white text-white pt-4 pb-5 d-none d-sm-block m-5">
@@ -167,7 +170,7 @@
         </section>
 
         <!--Contacto, poner formulario de typeform-->
-        <section class="contacto container-fluid bg-contact">
+        <section id="contact" class="contacto container-fluid bg-contact">
             <div class="row">
 
                 <div class="col-md-6">
@@ -185,9 +188,9 @@
 
         <!--Footer, redes sociales like fb + ig + linkedin + github-->
         <footer class="bg-dark text-center text-white">
-            <a href="https://github.com"><i class="fab fa-github-square fa-2x text-white"></i></a>
-            <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x text-white"></i></a>
-            <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x text-white"></i></a>
+            <a href="https://github.com/ignaciobriceno"><i class="fab fa-github-square fa-2x text-white"></i></a>
+            <a href="https://twitter.com/ignaciobriceno_"><i class="fab fa-twitter-square fa-2x text-white"></i></a>
+            <a href="https://www.linkedin.com/in/ignaciobricenovillegas/"><i class="fab fa-linkedin fa-2x text-white"></i></a>
             <p>© 2019. Hecho por Ignacio Briceño.</p>            
         </footer>
 
