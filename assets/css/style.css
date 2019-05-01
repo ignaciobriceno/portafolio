@@ -1,10 +1,16 @@
 .hero-section {
-	padding: 20rem;
+	padding: 25em;
 }
 
+.hero-section h1 {
+	font-size: 300%;
+}
+
+
+
 .bg {
-	background-image: url('../img/fotoperfiltp2.png');
-    background-size: cover;
+	background-image: url('../img/foto-hero.png');
+    background-size: 100%;
         
 }
 
