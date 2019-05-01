@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .hero-section {
 	padding: 25em;
 }
@@ -57,63 +56,3 @@ footer {
 }
 
 
-=======
-.hero-section {
-	padding: 25em;
-}
-
-.hero-section h1 {
-	font-size: 300%;
-}
-
-
-
-.bg {
-	background-image: url('../img/foto-hero.png');
-    background-size: 100%;
-        
-}
-
-.bg-contact {
-	background-image: url('../img/foto-contact.png');
-	background-size: cover;
-}
-
-.descripcion {
-	padding: 10rem;
-}
-
-.experiencia {
-	padding: 10rem;
-}
-
-.trabajos {
-	padding: 10rem;
-}
-
-.contacto {
-	padding: 10rem;
-}
-
-footer {
-	padding: 1rem;
-}
-
-.chico {
-	height: 150px;
-}
-
-
-.carousel-indicators {
-	top:170px;
-}
-
-
-.carousel-indicators li {
-	width: 10px;
-	height: 10px;
-	background-color: #373a3c;
-}
-
-
->>>>>>> d68e33d1e61dd82c0d9b6301211690f9592f124a
