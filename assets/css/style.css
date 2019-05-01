@@ -1,0 +1,52 @@
+.hero-section {
+	padding: 20rem;
+}
+
+.bg {
+	background-image: url('../img/foto-hero.png');
+    background-size: cover;
+        
+}
+
+.bg-contact {
+	background-image: url('../img/foto-contact.png');
+	background-size: cover;
+}
+
+.descripcion {
+	padding: 10rem;
+}
+
+.experiencia {
+	padding: 10rem;
+}
+
+.trabajos {
+	padding: 10rem;
+}
+
+.contacto {
+	padding: 10rem;
+}
+
+footer {
+	padding: 1rem;
+}
+
+.chico {
+	height: 150px;
+}
+
+
+.carousel-indicators {
+	top:170px;
+}
+
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	background-color: #373a3c;
+}
+
+
