@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Hind:400,600,700|Josefin+Sans" rel="stylesheet">
         
 
         <!--Font Awesome-->
@@ -23,28 +24,25 @@
 
   <body>
     
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top">
-
-              <a class="navbar-brand text-white font-weight-bold pl-5" href="#hero">IB</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-loco text-white fixed-top">
+              <a class="navbar-brand text-white font-weight-bold pl-5 logo" href="#hero">IB</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-
               <div class="collapse navbar-collapse pr-5" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto ">
                   <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#about">SOBRE MÍ</a>
+                    <a class="nav-link text-light" href="#about">SOBRE MÍ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#xp">EXPERIENCIA</a>
+                    <a class="nav-link text-light" href="#xp">EXPERIENCIA</a>
                   </li>
                  <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#works">TRABAJOS</a>
+                    <a class="nav-link text-light" href="#works">TRABAJOS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#contact">CONTACTO</a>
+                    <a class="nav-link text-light" href="#contact">CONTACTO</a>
                   </li>
                 </ul>
              </div>
@@ -52,29 +50,24 @@
         
         <!--Foto + Hola y la wea--> 
         <section id="hero" class="hero-section container-fluid bg text-dark">
-
-          <div class="row">
-
-            <div class="col-md-4-1">
-              <div class="typer">
-                <h3 class="text-left p-0 m-0">¡Hola, soy</h3>
-                <h1 class="font-weight-bold text-white text-left p-0 m-0">Ignacio Briceño</h1>
-                <h3 id="typer" class="font-weight-bold text-left p-0 m-0"></h3>               
-              </div>       
-            </div>
-            
-          </div>
               
+                  <div class="container-fluid presentacion block text-left">
+                  
+                  <h3 class="font-weight-bold">¡Hola, soy</h3>
+                  <h1 class="font-weight-bold text-danger">Ignacio Briceño</h1>
+                  <h3 id="typer" class="font-weight-bold"></h3> 
+                  
+                  </div>
                  
-                                            
+                                   
         </section>
 
         
 
         <!--Descripcion-->
-        <section  class="descripcion container d-none d-sm-block">
+        <section id="about" class="descripcion container d-none d-sm-block">
 
-          <hr class="bg-light mb-4">
+         
           <br>
           <br>
           <br>
@@ -82,7 +75,7 @@
               <div class="card-header bg-dark text-white">
                 <ul class="nav nav-tabs card-header-tabs">
                   <li class="nav-item">
-                    <h5 id="about">Acerca de mí</h5>
+                    <h5 >Acerca de mí</h5>
                   </li>
                 </ul>
               </div>
@@ -90,7 +83,6 @@
                 <h2 class="card-title py-3 font-weight-bold">¡Encantado de conocerte!</h2>
                 
                 <div id="acercademi" class="row">
-
 
                    <div class="col-md-6">
                      <img class="img-fluid img-thumbnail" src="assets/img/foto-about2.jpg" alt="about">
@@ -105,13 +97,14 @@
                      <p class="card-text text-left">
                      Me inicié en la programación web a mis 21 años, debido a que veo un gran potencial en estas herramientas para poder desarrollar muchísimos proyectos a mediano/largo plazo.
                      </p>
-                     <ul class="text-left">
+                     
+                     <p>
+                      <ul class="text-left">
                        <li>Me considero una persona amante de la Tierra (como debieran ser todos jeje).  </li>
                        <li>Pienso que la inteligencia emocional es más importante que la cognitiva, al menos en el mediano/largo plazo.</li>
                        <li>Soy hincha de Colo Colo hasta los huesos, y próximamente socio.</li>
                      </ul>
-
-
+                     </p>
     
                      <a href="#works" class="btn btn-dark">Mis trabajos</a>
                    </div>
@@ -135,8 +128,9 @@
         <!--Experiencia-->
         <section id="xp" class="experiencia container-fluid bg-light">
             <h2>Experiencia</h2>
+            <hr class="bg-light my-4">
             <div class="container-fluid">
-               <h4 class="py-3 text-danger">Formación  :</h4>
+               <h4 class="py-3 mt-5 text-danger">Formación  :</h4>
             <div class="row">
               
               <div class="col-md-3">
@@ -146,7 +140,7 @@
 
               <div class="col-md-6">
                 <h5 class="pt-3">Ingeniería Civil Industrial</h5>
-                <p>Actualmente estudiando Ingeniería Civil Industrial para graduarme bajo la especialidad de Ingeniero Civil Industrial y Licenciado en Ciencias de la Ingeniería, mención Industrial.</p>
+                <p class="text-secondary">Actualmente estudiando Ingeniería Civil Industrial para graduarme bajo la especialidad de Ingeniero Civil Industrial y Licenciado en Ciencias de la Ingeniería, mención Industrial.</p>
                 
               </div>
 
@@ -162,9 +156,9 @@
               </div>
               <div class="col-md-6">
                 <h5 class="pt-3 pb-0">Operador de servicios fotográficos</h5>
-                <p>Operador de distintos servicios fotográficos, destacando responsabilidad y amabilidad en el trato con diferentes clientes.</p>
+                <p class="text-secondary">Operador de distintos servicios fotográficos, destacando responsabilidad y amabilidad en el trato con diferentes clientes.</p>
                 <h5 class="pt-4">Práctica Profesional I</h5>
-                <p>Asistente de proyecto part-time en Sky Costanera.</p>
+                <p class="text-secondary">Asistente de proyecto part-time en Sky Costanera.</p>
                 
               </div>
                   
@@ -172,12 +166,13 @@
             </div>
 
               
-
         </section>
 
         <!--Trabajos (poner proyectos qls)-->
         <section id="works" class="trabajos container-fluid">
-            <h2 class="text-center">Portafolio de trabajos</h2>
+
+            <h2 class="text-center my-4">Portafolio de trabajos</h2>
+             <hr class="bg-light my-4">
             
             <div class="bg-white text-white pt-4 pb-5 d-none d-sm-block m-5">
                   <div id="blogCarousel" class="carousel slide"
@@ -192,18 +187,18 @@
                         <div class="row">
                           
                           <div class="col-4">
-                            <img class="chico" src="assets/img/cuppon.png" alt="uno">
+                            <img class="chico" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Cuppon" src="assets/img/cuppon.png" alt="uno">
                             
                             
                           </div>
 
                           <div class="col-4">
-                            <img class="chico" src="assets/img/iguana_page.png" alt="dos">
+                            <img class="chico bg-dark" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Iguana Page" src="assets/img/iguana_page.png" alt="dos">
                             
                           </div>
                           
                           <div class="col-4">
-                            <img class="chico" src="assets/img/meet_coffee.png" alt="tres">
+                            <img class="chico" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Meet & Coffee" src="assets/img/meet_coffee.png" alt="tres">
                             
                           </div>                  
 
@@ -216,18 +211,18 @@
                       <div class="carousel-item">
                         <div class="row">
                           <div class="col-4">
-                            <img class="chico" src="assets/img/dmark.png" alt="cinco">
+                            <img class="chico" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Dmark" src="assets/img/dmark.png" alt="cinco">
                             
                             
                           </div>                  
 
                           <div class="col-4">
-                            <img class="chico" src="assets/img/suricata.png" alt="seis">
+                            <img class="chico" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Suricata Page" src="assets/img/suricata.png" alt="seis">
                             
                             
                           </div> 
                           <div class="col-4">
-                            <img class="chico" src="assets/img/ricomida.png" alt="cuatro">
+                            <img class="chico" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Ricomida Page" src="assets/img/ricomida.png" alt="cuatro">
                             
                             
                           </div>                  
@@ -241,8 +236,8 @@
                   </div>
 
             </div>
+            <h5 class="py-3 text-center font-weight-bold text-danger">HTML | CSS | BOOTSTRAP | JAVASCRIPT | GITHUB</h5>
             
-
            
 
         </section>
@@ -253,9 +248,7 @@
 
                 <div class="col-md-6">
                     <h2 class="py-3 font-weight-bold">¡Contáctame!</h2>
-
                     <h5 class="pt-2 pb-4">Simplemente debes rellenar el siguiente formulario:</h5>
-
                      <a class="typeform-share button" href="https://ignaciobriceo.typeform.com/to/H37Xn5" data-mode="drawer_right" style="display:inline-block;text-decoration:none;background-color:#000000;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:15px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="5" target="_blank">    Click aquí </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                 </div>
 
@@ -267,11 +260,11 @@
         </section>
 
         <!--Footer, redes sociales like fb + ig + linkedin + github-->
-        <footer class="bg-dark text-center text-white">
+        <footer class="bg-loco text-center text-white">
             <a href="https://github.com/ignaciobriceno"><i class="fab fa-github-square fa-2x text-white"></i></a>
-            <a href="https://twitter.com/ignaciobriceno_"><i class="fab fa-twitter-square fa-2x text-white"></i></a>
+            <a href="https://twitter.com/ignaciobriceno_"><i class="fab fa-twitter-square fa-2x text-white mx-2"></i></a>
             <a href="https://www.linkedin.com/in/ignaciobricenovillegas/"><i class="fab fa-linkedin fa-2x text-white"></i></a>
-            <p>© 2019. Hecho por Ignacio Briceño.</p>            
+            <p class="pt-1">© 2019. Hecho por Ignacio Briceño Villegas.</p>            
         </footer>
 
 

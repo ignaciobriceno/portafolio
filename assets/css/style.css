@@ -1,17 +1,41 @@
+body {
+	font-family: 'Hind';
+	font-weight: 400;
+}
+.bg-loco {
+	background-image: repeating-linear-gradient(black, gray 2%)
+}
+
+h4 , h2 {
+	font-weight: 600;
+}
+
+
 .hero-section {
-	padding: 25em;
+	padding:25em;
+	padding-left: 50px;
+	padding-top: 100px;
+}
+
+.presentacion {
+	margin: 0px;
+	padding: 0px;
 }
 
 .hero-section h1 {
 	font-size: 300%;
 }
 
+.logo {
+	font-size: 200%;
+	font-family: 'Josefin Sans';
+	transform: skew(-15deg);
+}
 
 .bg {
 	background-image: url('../img/foto-hero.png');
-    background-size: inherit;
-
-        
+    background-size: cover;
+    box-sizing: inherit;    
 }
 
 .bg-contact {
@@ -33,7 +57,6 @@
 
 .contacto {
 	padding: 10em;
-
 }
 
 footer {
@@ -46,7 +69,7 @@ footer {
 
 
 .carousel-indicators {
-	top:170px;
+	top:200px;
 }
 
 
@@ -55,7 +78,6 @@ footer {
 	height: 10px;
 	background-color: #373a3c;
 	border-radius: 50%;
-
 }
 
 

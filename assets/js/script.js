@@ -19,7 +19,7 @@ $(function(){
 });
 
 $(function(){
- var texto = "Ingeniería Civil Industrial Universidad de Chile - Desarrollador Web";
+ var texto = "Ingeniería Civil Industrial Universidad de Chile - Diseño y Desarrollo Web";
  maquina("typer",texto,100,0);
 });
 
