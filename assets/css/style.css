@@ -7,10 +7,10 @@
 }
 
 
-
 .bg {
 	background-image: url('../img/foto-hero.png');
-    background-size: 100%;
+    background-size: inherit;
+
         
 }
 
@@ -20,19 +20,20 @@
 }
 
 .descripcion {
-	padding: 10rem;
+	padding: 10em;
 }
 
 .experiencia {
-	padding: 10rem;
+	padding: 10em;
 }
 
 .trabajos {
-	padding: 10rem;
+	padding: 10em;
 }
 
 .contacto {
-	padding: 10rem;
+	padding: 10em;
+
 }
 
 footer {
@@ -53,6 +54,8 @@ footer {
 	width: 10px;
 	height: 10px;
 	background-color: #373a3c;
+	border-radius: 50%;
+
 }
 
 
