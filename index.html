@@ -23,80 +23,154 @@
 
   <body>
     
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
-              <a class="navbar-brand text-white " href="#">IB</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top">
+              <a class="navbar-brand text-white font-weight-bold pl-5" href="#hero">IB</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse pr-5" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto ">
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Sobre mí</a>
+                    <a class="nav-link text-secondary" href="#about">SOBRE MÍ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Experiencia</a>
+                    <a class="nav-link text-secondary" href="#xp">EXPERIENCIA</a>
                   </li>
                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Trabajos</a>
+                    <a class="nav-link text-secondary" href="#works">TRABAJOS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contacto</a>
+                    <a class="nav-link text-secondary" href="#contact">CONTACTO</a>
                   </li>
                 </ul>
              </div>
         </nav>
         
         <!--Foto + Hola y la wea--> 
-        <section class="hero-section container-fluid bg text-dark">
-            <h2 class="text-center font-weight-bold">¡Hola, soy Ignacio Briceño!</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        <section id="hero" class="hero-section container-fluid bg text-dark">
 
+          <div class="row">
 
-                
+            <div class="col-md-4-1">
+              <div class="typer">
+                <h3 class="text-left p-0 m-0">¡Hola, soy</h3>
+                <h1 class="font-weight-bold text-white text-left p-0 m-0">Ignacio Briceño</h1>
+                <h3 id="typer" class="font-weight-bold text-left p-0 m-0"></h3>               
+              </div>       
+            </div>
+            
+          </div>
+              
+                 
+                                            
         </section>
 
+        
+
         <!--Descripcion-->
-        <section class="descripcion container">
+        <section  class="descripcion container d-none d-sm-block">
+
+          <hr class="bg-light mb-4">
+          <br>
+          <br>
+          <br>
             <div class="card text-center">
-              <div class="card-header">
+              <div class="card-header bg-dark text-white">
                 <ul class="nav nav-tabs card-header-tabs">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Active</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Disabled</a>
+                    <h5 id="about">Acerca de mí</h5>
                   </li>
                 </ul>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h2 class="card-title py-3 font-weight-bold">¡Encantado de conocerte!</h2>
+                
+                <div id="acercademi" class="row">
+
+                   <div class="col-md-6">
+                     <img class="img-fluid img-thumbnail" src="assets/img/foto-about2.jpg" alt="about">
+                     <i class="far fa-envelope fa-1x"></i><h6 class="pt-4 p-2 d-inline-block">ignbriceno@gmail.com</h6> 
+                    <br>
+                    <i class="fas fa-phone fa-1x"></i><h6 class="p-2 d-inline-block">+569 94910904</h6>
+                   </div>
+
+
+                   <div class="col-md-6">
+                    
+                     <p class="card-text text-left">
+                     Me inicié en la programación web a mis 21 años, debido a que veo un gran potencial en estas herramientas para poder desarrollar muchísimos proyectos a mediano/largo plazo.
+                     </p>
+                     <ul class="text-left">
+                       <li>Me considero una persona amante de la Tierra (como debieran ser todos jeje).  </li>
+                       <li>Pienso que la inteligencia emocional es más importante que la cognitiva, al menos en el mediano/largo plazo.</li>
+                       <li>Soy hincha de Colo Colo hasta los huesos, y próximamente socio.</li>
+                     </ul>
+
+    
+                     <a href="#works" class="btn btn-dark">Mis trabajos</a>
+                   </div>
+                  
+                </div>
+
+                
               </div>
             </div>
-
-            <h2>Acerca de mí</h2>
-            <h5>E-mail</h5>
-            <h5>Teléfono</h5>    
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr class="bg-light my-3">
+        
         </section>
+
+
+
         
         <!--Experiencia-->
-        <section class="experiencia container-fluid bg-secondary">
+        <section id="xp" class="experiencia container-fluid bg-light">
             <h2>Experiencia</h2>
-            <h5>Formación</h5>    
+            <div class="container-fluid">
+               <h4 class="py-3 text-danger">Formación  :</h4>
+            <div class="row">
+              
+              <div class="col-md-3">
+                <i class="fas fa-university fa-1x d-inline-block"> </i><h5 class="pt-3 d-inline-block">   Universidad de Chile</h5>
+                <h5 class="text-secondary">2015 - actualidad</h5>
+              </div>
+
+              <div class="col-md-6">
+                <h5 class="pt-3">Ingeniería Civil Industrial</h5>
+                <p>Actualmente estudiando Ingeniería Civil Industrial para graduarme bajo la especialidad de Ingeniero Civil Industrial y Licenciado en Ciencias de la Ingeniería, mención Industrial.</p>
+                
+              </div>
+
+            </div>
+
+            <h4 class="py-3 text-danger">Trabajos  :</h4>
+            <div class="row">
+              <div class="col-md-3">
+                <i class="fas fa-briefcase fa-1x"></i><h5 class="pt-3 d-inline-block">Photofest Chile</h5>
+                <h5 class="text-secondary pb-5">2014 - actualidad</h5>
+                <i class="fas fa-briefcase fa-1x"></i><h5 class="pt-2 d-inline-block">Photofest Chile</h5>
+                <h5 class="text-secondary">2019 - actualidad</h5>
+              </div>
+              <div class="col-md-6">
+                <h5 class="pt-3 pb-0">Operador de servicios fotográficos</h5>
+                <p>Operador de distintos servicios fotográficos, destacando responsabilidad y amabilidad en el trato con diferentes clientes.</p>
+                <h5 class="pt-4">Práctica Profesional I</h5>
+                <p>Asistente de proyecto part-time en Sky Costanera.</p>
+                
+              </div>
+                  
+            </div> 
+            </div>
+
+              
         </section>
 
         <!--Trabajos (poner proyectos qls)-->
-        <section class="trabajos container-fluid">
+        <section id="works" class="trabajos container-fluid">
             <h2 class="text-center">Portafolio de trabajos</h2>
             
             <div class="bg-white text-white pt-4 pb-5 d-none d-sm-block m-5">
@@ -162,17 +236,17 @@
 
             </div>
             
-            <hr class="bg-light my-4">
+           
 
         </section>
 
         <!--Contacto, poner formulario de typeform-->
-        <section class="contacto container-fluid bg-contact">
+        <section id="contact" class="contacto container-fluid bg-contact">
             <div class="row">
 
                 <div class="col-md-6">
                     <h2 class="py-3 font-weight-bold">¡Contáctame!</h2>
-                    <h5 class="py-2">Simplemente debes rellenar el siguiente formulario:</h5>
+                    <h5 class="pt-2 pb-4">Simplemente debes rellenar el siguiente formulario:</h5>
                      <a class="typeform-share button" href="https://ignaciobriceo.typeform.com/to/H37Xn5" data-mode="drawer_right" style="display:inline-block;text-decoration:none;background-color:#000000;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:15px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-submit-close-delay="5" target="_blank">    Click aquí </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                 </div>
 
@@ -185,9 +259,9 @@
 
         <!--Footer, redes sociales like fb + ig + linkedin + github-->
         <footer class="bg-dark text-center text-white">
-            <a href="https://github.com"><i class="fab fa-github-square fa-2x text-white"></i></a>
-            <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x text-white"></i></a>
-            <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x text-white"></i></a>
+            <a href="https://github.com/ignaciobriceno"><i class="fab fa-github-square fa-2x text-white"></i></a>
+            <a href="https://twitter.com/ignaciobriceno_"><i class="fab fa-twitter-square fa-2x text-white"></i></a>
+            <a href="https://www.linkedin.com/in/ignaciobricenovillegas/"><i class="fab fa-linkedin fa-2x text-white"></i></a>
             <p>© 2019. Hecho por Ignacio Briceño.</p>            
         </footer>
 
