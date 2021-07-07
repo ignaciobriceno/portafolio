@@ -1,11 +1,41 @@
+body {
+	font-family: 'Hind';
+	font-weight: 400;
+}
+.bg-loco {
+	background-image: repeating-linear-gradient(black, gray 2%)
+}
+
+h4 , h2 {
+	font-weight: 600;
+}
+
+
 .hero-section {
-	padding: 20rem;
+	padding:25em;
+	padding-left: 50px;
+	padding-top: 100px;
+}
+
+.presentacion {
+	margin: 0px;
+	padding: 0px;
+}
+
+.hero-section h1 {
+	font-size: 300%;
+}
+
+.logo {
+	font-size: 200%;
+	font-family: 'Josefin Sans';
+	transform: skew(-15deg);
 }
 
 .bg {
-	background-image: url('../img/fotoperfiltp2.png');
+	background-image: url('../img/foto-hero.png');
     background-size: cover;
-        
+    box-sizing: inherit;    
 }
 
 .bg-contact {
@@ -14,19 +44,19 @@
 }
 
 .descripcion {
-	padding: 10rem;
+	padding: 10em;
 }
 
 .experiencia {
-	padding: 10rem;
+	padding: 10em;
 }
 
 .trabajos {
-	padding: 10rem;
+	padding: 10em;
 }
 
 .contacto {
-	padding: 10rem;
+	padding: 10em;
 }
 
 footer {
@@ -39,7 +69,7 @@ footer {
 
 
 .carousel-indicators {
-	top:170px;
+	top:200px;
 }
 
 
@@ -47,6 +77,7 @@ footer {
 	width: 10px;
 	height: 10px;
 	background-color: #373a3c;
+	border-radius: 50%;
 }
 
 
